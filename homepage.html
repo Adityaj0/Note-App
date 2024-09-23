@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="Notely-logo.png">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>
+      Notey
+    </title>
+  </head>
+  <body>
+
+    <nav>
+      <div class="header">
+        <div class="logo">
+          Notely
+        </div>
+
+        <div class = "login">
+          <button id="signInButton" class = "loginbut">
+            Sign In
+          </button>
+        </div>
+      </div>
+      <p class="get-started">
+        Get Started
+      </p >
+      <p class="get-started2">
+        With <span class="notely">Notely</span>
+      </p>
+      <div class="typee">
+        <p class="typing">
+          Express, like, motivatee
+        </p>
+      </div>
+    </nav>
+    <div class="container">
+    <button id="getStartedButton" class="startbutton">
+      Get Started
+    </button>
+  </div>
+    <svg class="sg" xmlns="http://www.w3.org/2000/svg" viewBox="0 70 1440 250">
+      <path fill="#9AD1D4" fill-opacity="1" d="M0,128L20,138.7C40,149,80,171,120,181.3C160,192,200,192,240,176C280,160,320,128,360,122.7C400,117,440,139,480,138.7C520,139,560,117,600,133.3C640,149,680,203,720,202.7C760,203,800,149,840,133.3C880,117,920,139,960,128C1000,117,1040,75,1080,80C1120,85,1160,139,1200,160C1240,181,1280,171,1320,154.7C1360,139,1400,117,1420,106.7L1440,96L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path>
+    </svg>
+    <div class="middle">
+      <div>
+        1.
+      </div>
+      <div>
+         2.
+      </div>
+      <div>
+        3.
+      </div>
+    </div>
+    <script type="module">
+  const getStartedButton = document.getElementById("getStartedButton");
+  const signInButton = document.getElementById("signInButton");
+
+  const redirectToSignIn = () => {
+      window.location.href = "signin.html"; 
+};
+
+  getStartedButton.addEventListener('click', redirectToSignIn);
+  signInButton.addEventListener('click', redirectToSignIn);
+
+    </script>
+  </body>
+</html>

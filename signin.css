@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+  font-family: Kanit, Arial, Helvetica, sans-serif;
+  background: rgba(0, 50, 73, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Sign-in Container */
+.signin-container {
+  background-color: rgba(204, 219, 220, 1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  color: #007EA7;
+  margin-bottom: 10px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label */
+label {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #007EA7;
+}
+
+/* Input Fields */
+input {
+  margin-top: 25px;
+  padding: 10px;
+  border: 2px solid #80CED7;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%; /* Ensure the input takes full width of the container */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Buttons */
+.signin, .signup {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007EA7;
+  color: rgb(248, 244, 225);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%; /* Match the width of the input boxes */
+  box-sizing: border-box; /* Ensure the width includes padding and border */
+}
+
+.signup:hover, .signin:hover {
+  background-color: #005774;
+}
+
+/* Paragraphs */
+p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Links */
+a {
+  color: #80CED7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Google Button */
+.google {
+  font-family: serif;
+  font-weight: normal;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%; /* Match the width of the input boxes */
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  background: white;
+  color: #444;
+  border-radius: 5px;
+  border: thin solid #888;
+  box-shadow: 1px 1px 1px grey;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+/* Google Button Icon */
+.googlebut {
+  width: 24px; /* Adjust size as needed */
+  margin-right: 10px; /* Space between icon and text */
+}
+
+/* Google Button Hover Effect */
+.google:hover {
+  background: #ebebeb; /* Light grey background on hover */
+}
